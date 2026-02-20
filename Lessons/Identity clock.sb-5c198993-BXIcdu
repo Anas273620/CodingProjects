@@ -1,0 +1,49 @@
+option = -1
+
+while option != 0:
+    print(" 1)Add \n 2)Subtract \n 3)Multiply \n 4)Divide \n 5)Square root \n 0)Exit")
+    option = int(input("Choose an option"))
+    
+    while option < 0 or option > 5:
+        option = int(input("Choose an option"))
+        
+    if option == 0:
+        print("Goodbye!")
+        break
+    
+    if option == 5:
+        c = float(input("Enter a number to square root"))
+        if c < 0:
+            print("Invalid number, Cannot square root an invalid number")
+            continue
+        sqrt = c ** 0.5
+        print("The square root of", c, "is", sqrt)
+        continue
+        
+            
+        
+    
+            
+        
+    a = float(input("Enter a number"))
+    b = float(input("Enter another number"))
+    
+    
+    if option == 1:
+        print(a, '+', b, "=", a+b)
+    elif option == 2:
+        print(a, "-", b, "=", a-b)
+    elif option == 3:
+        print(a, "*", b, "=", a*b)
+    elif option == 4:
+        if b == 0:
+            print("Error, cannot divide by zero")
+            continue
+        print(a, "/", b, "=", a / b)
+        
+    
+        
+    
+        
+    
+
