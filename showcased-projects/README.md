@@ -1,51 +1,47 @@
 # Showcased Projects
 
-This folder highlights my best projects from this repository.
+This folder is a quick navigation hub for the strongest projects in this repository.
 
 ## Featured Projects
 
-### 1) Portfolio Web Server (Flask)
-**Path:** `../Portfolio/web server`
+## 1) Portfolio Web Server (Flask)
+**Path:** [`Portfolio/web server`](../Portfolio/web%20server)
 
-A Flask-based personal portfolio website with dynamic page routing and a contact form that saves submissions to CSV.
+A Flask-based personal portfolio site with dynamic routing and a contact form pipeline.
 
-**Key features:**
-- Dynamic page rendering via route parameters
-- Contact form submission endpoint
-- CSV persistence for form data
+**Highlights**
+- Dynamic page rendering
+- Form submission endpoint (`/submit_form`)
+- CSV storage for contact messages
 
-**Tech used:** Python, Flask, HTML templates, CSV
+**Tech**: Python, Flask, Jinja templates, CSV
 
----
+## 2) ReallySmartBrain (Image Classification)
+**Path:** [`ReallySmartBrain`](../ReallySmartBrain)
 
-### 2) ReallySmartBrain (Image Classification)
-**Path:** `../ReallySmartBrain`
+A computer vision demo that classifies local images using ImageAI + MobileNetV2.
 
-A computer-vision demo that uses ImageAI with MobileNetV2 to classify local images and print top predictions with confidence scores.
+**Highlights**
+- Local image inference
+- Pretrained model usage
+- Top prediction output with confidence scores
 
-**Key features:**
-- Local image classification inference
-- Pretrained MobileNetV2 model integration
-- Top-N prediction output
-
-**Tech used:** Python, ImageAI, PyTorch model weights
-
----
+**Tech**: Python, ImageAI, PyTorch weights
 
 ## Supporting Demos
 
 ### Hacker News Scraper
-**Path:** `../Lessons/scrape.py`
+**Path:** [`Lessons/scrape.py`](../Lessons/scrape.py)
 
-Scrapes Hacker News pages and ranks stories by vote count.
+Scrapes Hacker News and ranks stories by votes.
 
-### Selenium QA Automation Demo
-**Path:** `../Selenium/automation.py`
+### Selenium QA Automation
+**Path:** [`Selenium/automation.py`](../Selenium/automation.py)
 
-Basic browser automation script using Selenium WebDriver.
+Simple Selenium automation against a public practice page.
 
----
+## Recommended Review Path
 
-## How to use this folder
-
-Use this folder as a quick navigation hub when sharing my repository with recruiters, collaborators, or potential clients.
+1. Read this file.
+2. Open `Portfolio/web server/README.md`.
+3. Open `ReallySmartBrain/README.md`.
